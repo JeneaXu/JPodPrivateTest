@@ -13,6 +13,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"这是一个用来测试私有仓库的demo～～～");
+    NSLog(@"通过命令行创建～～～～～ $ pod lib create JPodPrivateTest");
     return YES;
 }
 
